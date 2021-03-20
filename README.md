@@ -21,6 +21,14 @@
 - Provided api should take 2 parameters as following
     - Map<String, Integer>
     - String
-- The relational operator can be > <
+- The relational operator can be >, <, !=, ==
 - The conditional operators can be && || !
 - Variable values can be integer only
+
+
+## Build
+Once you clone (or download) this repository, do below
+````$xslt
+$ cd checkout-directory
+$ ./gradlew build
+````
